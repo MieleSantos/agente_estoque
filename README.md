@@ -72,7 +72,7 @@ Certifique-se de ter os seguintes pré-requisitos instalados em seu ambiente:
 - `README.md`: Este arquivo com as instruções do projeto.
 
 
-![source\agente_estoque.gif](source\agente_estoque.gif)
+![source/agente_estoque.gif](source/agente_estoque.gif)
 
 ## Dependências
 
