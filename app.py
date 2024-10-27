@@ -21,10 +21,10 @@ st.header('Assistente de Estoque')
 
 model_options = [
     'gpt-3.5-turbo',
-    # 'gpt-4',
-    # 'gpt-4-turbo',
-    # 'gpt-4o-mini',
-    # 'gpt-4o',
+    'gpt-4',
+    'gpt-4-turbo',
+    'gpt-4o-mini',
+    'gpt-4o',
 ]
 selected_model = st.sidebar.selectbox(
     label='Selecione o modelo LLM',
@@ -43,7 +43,7 @@ model = ChatOpenAI(
     model=selected_model,
 )
 
-db = SQLDatabase.from_uri('sqlite:///estoque.db')
+db = SQLDatabase.from_uri('sqlite:///database/estoque.db')
 toolkit = SQLDatabaseToolkit(
     db=db,
     llm=model,
