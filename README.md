@@ -59,8 +59,10 @@ Certifique-se de ter os seguintes pré-requisitos instalados em seu ambiente:
 ## Uso
 
 1. Acesse a interface do Streamlit no seu navegador.
-2. Insira a pergunta sobre o estoque, como "Qual o número de itens no estoque?" ou "Quantas unidades do produto X temos?".
-3. O agente interpretará a pergunta e retornará a resposta a partir do banco de dados de estoque.
+2. Selecione o modelo 
+3. Insira a pergunta sobre o estoque, como:
+   -  "Qual o número de itens no estoque?" ou "Quantas unidades do produto X temos?".
+4. O agente interpretará a pergunta e retornará a resposta a partir do banco de dados de estoque.
 
 ## Estrutura do Projeto
 
@@ -68,6 +70,9 @@ Certifique-se de ter os seguintes pré-requisitos instalados em seu ambiente:
 - `agent.py`: Código do agente que conecta-se à API OpenAI e ao banco de dados.
 - `database.py`: Módulo responsável por estabelecer a conexão e realizar consultas no banco de dados.
 - `README.md`: Este arquivo com as instruções do projeto.
+
+
+![source\agente_estoque.gif](source\agente_estoque.gif)
 
 ## Dependências
 
@@ -78,6 +83,9 @@ As dependências estão listadas no arquivo `pyproject.toml`, e incluem:
 - `langchain-community`
 - `langchain-experimental`
 - `python-dotenv`
+
+
+
 
 ## Contribuição
 
